@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\DashboardPostController;
+use App\Http\Controllers\ProductController;
 
 /*
 |--------------------------------------------------------------------------
@@ -72,10 +73,18 @@ Route::post('/logout', [LoginController::class, 'logout']);
 Route::get('/register', [RegisterController::class, 'index'])->middleware('guest');
 Route::post('/register', [RegisterController::class, 'store']);
 
-Route::get('/dashboard', function(){
-    return view('dashboard.index', [
-        'title' => 'Dashboard'
-    ]);
-})->middleware('auth');
-
-Route::resource('/dashboard/posts', DashboardPostController::class)->middleware('auth');
+Route::prefix('dashboard')->name('dashboard.')->group(function () {
+    Route::get('', function () {
+        return view('dashboard.index', [
+            'title' => 'Dashboard'
+        ]);
+    });
+    Route::prefix('product')->name('product.')->group(function () {
+        Route::get('', [ProductController::class, 'index'])->name('index');
+        Route::get('create', [ProductController::class, 'create'])->name('create');
+        Route::get('{product_id}/edit', [ProductController::class, 'edit'])->name('edit');
+        Route::get('{product_id}/variation',[ProductController::class, 'variation'])->name('variation');
+        Route::get('{product_id}/variation/create',[ProductController::class, 'variation'])->name('variation');
+        Route::get('{product_id}/delete',[ProductController::class, 'delete'])->name('delete');
+    });
+});
