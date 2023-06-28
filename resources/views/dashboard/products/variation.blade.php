@@ -6,7 +6,7 @@
 </div>
 <div class="card">
     <div>
-        <a href="{{route('dashboard.product.create')}}">Add Variation</a>
+        <a href="{{route('dashboard.product.create.vartiation')}}">Add Variation</a>
     </div>
     <div class="card-body">
         <table class="table table-bordered">
@@ -25,7 +25,9 @@
                         Deskripsi 1
                     </td>
                     <td>
-
+                        <a href="{{route('dashboard.product.variation', ['product_id'=>1])}}">Variation</a>
+                        <a href="{{route('dashboard.product.edit',['product_id'=>1])}}">Edit</a>
+                        <a href="">Delete</a>
                     </td>
                 </tr>
             </tbody>
