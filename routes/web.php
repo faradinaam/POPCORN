@@ -84,7 +84,9 @@ Route::prefix('dashboard')->name('dashboard.')->group(function () {
         Route::get('create', [ProductController::class, 'create'])->name('create');
         Route::get('{product_id}/edit', [ProductController::class, 'edit'])->name('edit');
         Route::get('{product_id}/variation',[ProductController::class, 'variation'])->name('variation');
-        Route::get('{product_id}/variation/create',[ProductController::class, 'variation'])->name('variation');
+        Route::get('createvariation', [ProductController::class, 'createvariation'])->name('createvariation');
+        Route::get('{product_id}/editvariation', [ProductController::class, 'editvariation'])->name('editvariation');
+        // Route::get('{product_id}/variation/createvariation',[ProductController::class, 'createvariation'])->name('createvariation');
         Route::get('{product_id}/delete',[ProductController::class, 'delete'])->name('delete');
     });
 });

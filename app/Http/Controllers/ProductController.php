@@ -18,6 +18,12 @@ class ProductController extends Controller
     public function variation(){
         return view('dashboard.products.variation');
     }
+    public function createvariation(){
+        return view('dashboard.products.createvariation');
+    }
+    public function editvariation(){
+        return view('dashboard.products.editvariation');
+    }
     public function delete(){
         return view('dashboard.products.delete');
     }

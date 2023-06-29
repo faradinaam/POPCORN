@@ -5,9 +5,9 @@
   <h1 class="h2">Product</h1>
 </div>
 <div class="card">
-    <div>
+    {{-- <div>
         <a href="{{route('dashboard.product.create')}}">Add product</a>
-    </div>
+    </div> --}}
     <div class="card-body">
         <table class="table table-bordered">
             <thead>

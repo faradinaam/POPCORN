@@ -2,12 +2,12 @@
 
 @section('container')
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-  <h1 class="h2">Product Variation</h1>
+  <h1 class="h2">Edit Product Variation</h1>
 </div>
 <div class="card">
-    <div>
+    {{-- <div>
         <a href="{{route('dashboard.product.createvariation')}}">Add Variation</a>
-    </div>
+    </div> --}}
     <div class="card-body">
         <table class="table table-bordered">
             <thead>
@@ -15,7 +15,7 @@
                 <th>Deskripsi</th>
                 <th>Weight</th>
                 <th>Price</th>
-                <th>Aksi</th>
+                {{-- <th>Aksi</th> --}}
             </thead>
             <tbody>
                 <tr>
@@ -31,10 +31,10 @@
                     <td>
                         25.000
                     </td>
-                    <td>
+                    {{-- <td>
                         <a href="{{route('dashboard.product.editvariation',['product_id'=>1])}}">Edit</a>
                         <a href="">Delete</a>
-                    </td>
+                    </td> --}}
                 </tr>
             </tbody>
         </table>
