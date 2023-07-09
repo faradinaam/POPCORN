@@ -6,13 +6,13 @@
 </div>
 <div class="card">
     <div>
-        <a href="{{route('dashboard.product.createvariation')}}">Add Variation</a>
+        <a class="btn btn-info" href="{{route('dashboard.product.createvariation')}}" role="button">Add Variation</a>
     </div>
     <div class="card-body">
         <table class="table table-bordered">
             <thead>
                 <th>Nama Variasi</th>
-                <th>Deskripsi</th>
+                {{-- <th>Deskripsi</th> --}}
                 <th>Weight</th>
                 <th>Price</th>
                 <th>Aksi</th>
@@ -22,9 +22,9 @@
                     <td>
                         Product 1
                     </td>
-                    <td>
+                    {{-- <td>
                         Deskripsi 1
-                    </td>
+                    </td> --}}
                     <td>
                         50gr
                     </td>
@@ -32,8 +32,8 @@
                         25.000
                     </td>
                     <td>
-                        <a href="{{route('dashboard.product.editvariation',['product_id'=>1])}}">Edit</a>
-                        <a href="">Delete</a>
+                        <a class="btn btn-warning" href="{{route('dashboard.product.editvariation',['product_id'=>1])}}" role="button">Edit</a>
+                        <button type="button" class="btn btn-danger">Delete</button>
                     </td>
                 </tr>
             </tbody>
