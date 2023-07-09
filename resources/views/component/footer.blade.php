@@ -28,8 +28,8 @@
                             <div class="footer-contact">
                                 <h2>Our Address</h2>
                                 <p><i class="fa fa-map-marker-alt"></i>Blok 1G, Jl. Raya Medokan Sawah, Medokan Ayu, Rungkut, Surabaya City, East Java 60295</p>
-                                
-                                
+
+
                             </div>
                         </div>
                         <div class="col-md-2">
@@ -41,26 +41,25 @@
                         <div class="col-md-2">
                             <div class="footer-contact">
                                 <h2>Our Social Media</h2>
-                                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-youtube"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://api.whatsapp.com/send/?phone=6281230610228&text&type=phone_number&app_absent=0"><img src="{{asset('DOKUMENPOPCORN/wa.png')}}"  style="width:40px " alt=""></a>
+                                <a href="https://shopee.co.id/popcorntogo?smtt=0.662763060-1670263172.7"><img src="{{asset('DOKUMENPOPCORN/shopee (3).png')}}"  style="width:40px " alt=""></a>
+                                <a href="https://www.tokopedia.com/popcorntogo?_branch_match_id=1176688419967815854&utm_source=sellerchannel&utm_campaign=Shop-0-14885579-0&utm_medium=share&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL8nPzi9ITclM1MvJzMvWL8gvSM4vyivJT88HAAb%2FVZ8iAAAA"><img src="{{asset('DOKUMENPOPCORN/tokopedia.png')}}"  style="width:30px " alt=""></a>
+                                <a href="http://tiktok.com/@popcorntogo.id"><img src="{{asset('DOKUMENPOPCORN/tiktok.png')}}"  style="width:30px " alt=""></a>
+                                <a href="http://www.instagram.com/popcornotogo"><img src="{{asset('DOKUMENPOPCORN/instagram.png')}}"  style="width:30px " alt=""></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
         <div class="copyright">
             <div class="container">
-                <p>Copyright &copy; <a href="#">POPCORN TO GO</a>, All Right Reserved.</p>            
+                <p>Copyright &copy; <a href="#">POPCORN TO GO</a>, All Right Reserved.</p>
             </div>
         </div>
     </div>
-    <!-- Footer End --> 
+    <!-- Footer End -->
 
                 <!-- JavaScript Libraries -->
                 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -71,11 +70,11 @@
                 <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
                 <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-                
+
                 <!-- Contact Javascript File -->
                 <script src="mail/jqBootstrapValidation.min.js"></script>
                 <script src="mail/contact.js"></script>
-        
+
                 <!-- Template Javascript -->
                 <script src="js/main.js"></script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
