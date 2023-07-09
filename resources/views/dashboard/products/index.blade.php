@@ -6,31 +6,38 @@
 </div>
 <div class="card">
     <div>
-        <a href="{{route('dashboard.product.create')}}">Add product</a>
+        <a class="btn btn-info" href="{{route('dashboard.product.create')}}" role="button">Add product</a>
+        {{-- <a href="{{route('dashboard.product.create')}}">Add product</a> --}}
     </div>
     <div class="card-body">
-        <table class="table table-bordered">
+        <table class="table">
             <thead>
-                <th>Nama</th>
-                <th>Deskripsi</th>
-                <th>Aksi</th>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nama</th>
+                <th scope="col">Deskripsi</th>
+                <th scope="col">Aksi</th>
+              </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>
-                        Product 1
-                    </td>
-                    <td>
-                        Deskripsi 1
-                    </td>
-                    <td>
-                        <a href="{{route('dashboard.product.variation', ['product_id'=>1])}}">Variation</a>
+            @foreach ($data as $row)
+            <tr>
+                <th scope="row">{{$row->id}}</th>
+                <td>{{$row->name}}</td>
+                <td>{{$row->description}}</td>
+                <td>
+                    <a class="btn btn-primary" href="{{route('dashboard.product.variation', ['product_id'=>1])}}" role="button">Variation</a>
+                        <a class="btn btn-warning" href="{{route('dashboard.product.edit',['product_id'=>1])}}" role="button">Edit</a>
+                        <button type="button" class="btn btn-danger">Delete</button>
+                        {{-- <a href="{{route('dashboard.product.variation', ['product_id'=>1])}}">Variation</a>
                         <a href="{{route('dashboard.product.edit',['product_id'=>1])}}">Edit</a>
-                        <a href="">Delete</a>
-                    </td>
-                </tr>
+                        <a href="">Delete</a> --}}
+                </td>
+              </tr>
+            @endforeach
+
             </tbody>
-        </table>
+          </table>
     </div>
 </div>
 @endsection
