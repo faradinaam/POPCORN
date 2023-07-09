@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Product;
+use App\Models\ProductVariation;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
@@ -16,22 +17,28 @@ class ProductController extends Controller
     }
     public function insertproduct(Request $request){
         // dd($request->all());
-        product::create($request->all());
+        Product::create($request->all());
         return redirect()->route('dashboard.product.index');
     }
     public function edit(){
         return view('dashboard.products.edit');
     }
-    public function variation(){
-        return view('dashboard.products.variation');
+    public function variation($product_id){
+        $variations = ProductVariation::where('product_id',$product_id)->get();
+        return view('dashboard.products.variation', ['product_id'=>$product_id,'variations'=>$variations]);
     }
-    public function createvariation(){
-        return view('dashboard.products.createvariation');
+    public function createvariation($product_id){
+        return view('dashboard.products.createvariation', ['product_id'=>$product_id]);
     }
-    public function insertvariation(Request $request){
-        dd($request->all());
-        product::create($request->all());
-        // return redirect()->route('dashboard.product.variation');
+    public function insertvariation($product_id, Request $request){
+        // return $request;
+        ProductVariation::create([
+            'product_id'=> $product_id,
+            'name'=> $request->name,
+            'weight'=> $request->weight,
+            'price'=> $request->price,
+        ]);
+        return redirect()->route('dashboard.product.variation',['product_id'=>$product_id]);
     }
     public function editvariation(){
         return view('dashboard.products.editvariation');
