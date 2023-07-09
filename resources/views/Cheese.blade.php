@@ -34,7 +34,7 @@
                                     <div
                                         onclick="window.open(`https://api.whatsapp.com/send/?phone=6281230610228&text&type=phone_number&app_absent=0`)">
                                         <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
-                                        <label class="btn btn-outline-warning" for="btncheck3">400 gjjjjjr</label>
+                                        <label class="btn btn-outline-warning" for="btncheck3">400 gr</label>
                                     </div>
                                 </div>
                                 {{-- <a class="btn custom-btn" href="https://api.whatsapp.com/send/?phone=6281230610228&text&type=phone_number&app_absent=0">BUY NOW</a> --}}
