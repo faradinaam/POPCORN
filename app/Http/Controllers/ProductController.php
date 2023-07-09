@@ -15,7 +15,7 @@ class ProductController extends Controller
         return view('dashboard.products.create');
     }
     public function insertproduct(Request $request){
-        dd($request->all());
+        // dd($request->all());
         product::create($request->all());
         return redirect()->route('dashboard.product.index');
     }
