@@ -74,23 +74,6 @@ Route::get('/register', [RegisterController::class, 'index'])->middleware('guest
 Route::post('/register', [RegisterController::class, 'store']);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Route::prefix('dashboard')->name('dashboard.')->middleware('auth')->group(function () {
     Route::get('', function () {
         return view('dashboard.index', [
