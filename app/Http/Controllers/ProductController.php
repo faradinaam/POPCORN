@@ -20,6 +20,13 @@ class ProductController extends Controller
         Product::create($request->all());
         return redirect()->route('dashboard.product.index');
     }
+
+    public function showdata($id){
+        $data = Product::find($id);
+        // dd($data);
+        return view('dashboard.products.show',compact('data'));
+    }
+
     public function edit(){
         return view('dashboard.products.edit');
     }

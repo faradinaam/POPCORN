@@ -27,7 +27,7 @@
                 <td>{{$row->description}}</td>
                 <td>
                     <a class="btn btn-primary" href="{{route('dashboard.product.variation', ['product_id'=>1])}}" role="button">Variation</a>
-                        <a class="btn btn-warning" href="{{route('dashboard.product.edit',['product_id'=>1])}}" role="button">Edit</a>
+                        <a class="btn btn-warning" href="{{route('dashboard.product.showdata',[$row->id])}}" role="button">Edit</a>
                         <button type="button" class="btn btn-danger">Delete</button>
                         {{-- <a href="{{route('dashboard.product.variation', ['product_id'=>1])}}">Variation</a>
                         <a href="{{route('dashboard.product.edit',['product_id'=>1])}}">Edit</a>
