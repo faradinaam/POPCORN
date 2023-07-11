@@ -2,7 +2,7 @@
 
 @section('container')
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-  <h1 class="h2">Product</h1>
+  <h1 class="h2">Edit Product</h1>
 </div>
 <form action="" method="POST" enctype="multipart/form-data">
     @csrf
@@ -12,7 +12,8 @@
     </div>
     <div class="mb-3">
       <label for="Description" class="form-label">Description</label>
-      <textarea name="description" class="form-control" cols="30" rows="10" value="{{$data->description}}"></textarea>
+      <input type="text" name="description" value="{{$data->description}}" class="form-control" cols="30" rows="10">
+      {{-- <textarea name="description" value="{{$data->description}}" class="form-control" cols="30" rows="10"></textarea> --}}
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
