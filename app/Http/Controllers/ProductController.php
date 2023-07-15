@@ -18,13 +18,18 @@ class ProductController extends Controller
     public function insertproduct(Request $request){
         // dd($request->all());
         Product::create($request->all());
-        return redirect()->route('dashboard.product.index');
+        return redirect()->route('dashboard.product.index')->with('Success', 'Data berhasil ditambahkan');
     }
 
     public function showdata($id){
         $data = Product::find($id);
         // dd($data);
         return view('dashboard.products.show',compact('data'));
+    }
+    public function updateproduct(Request $request, $id){
+        $data = Product::find($id);
+        $data->update($request->all());
+        return redirect()->route('dashboard.product.index')->with('Success','Data berhasil diubah');
     }
 
     public function edit(){
