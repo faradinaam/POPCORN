@@ -82,11 +82,6 @@
 </div>
 {{-- Carousel End --}}
 
-    <a
-        href="https://api.whatsapp.com/send?phone=62895391582231&text=Halo" class="float" target="_blank">
-        <i class="fa fa-whatsapp my-float"></i>
-    </a>
-
 <!-- Video Modal Start-->
 <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
