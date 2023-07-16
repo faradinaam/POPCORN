@@ -16,6 +16,7 @@
                 <th scope="col">#</th>
                 <th scope="col">Nama</th>
                 <th scope="col">Deskripsi</th>
+                <th scope="col">Photo</th>
                 <th scope="col">Aksi</th>
               </tr>
             </thead>
@@ -25,6 +26,9 @@
                 <th scope="row">{{$row->id}}</th>
                 <td>{{$row->name}}</td>
                 <td>{{$row->description}}</td>
+                <td>
+                    <img src="{{$row->getImageUrl()}}" width="40">
+                </td>
                 <td>
                     <a class="btn btn-primary" href="{{route('dashboard.product.variation', ['product_id'=>1])}}" role="button">Variation</a>
                         <a class="btn btn-warning" href="{{route('dashboard.product.showdata',[$row->id])}}" role="button">Edit</a>
