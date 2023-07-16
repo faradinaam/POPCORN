@@ -43,10 +43,21 @@ class ProductController extends Controller
         // dd($data);
         return view('dashboard.products.show', compact('data'));
     }
+
     public function updateproduct(Request $request, $id)
     {
-        $data = Product::find($id);
-        $data->update($request->all());
+        $data=[
+            'name' => $request->name,
+            'description' => $request->description,
+        ];
+
+        if($request->hasfile('photo'))
+        {
+            $path = $request->file('photo')->store('product_photos', 'public');
+            $data['photo'] = $path;
+        }
+
+        Product::find($id)->update($data);
         return redirect()->route('dashboard.product.index')->with('Success', 'Data berhasil diubah');
     }
 

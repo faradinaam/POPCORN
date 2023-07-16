@@ -12,14 +12,15 @@
                 value="{{ $data->name }}">
         </div>
         <div class="mb-3">
+            <label for="ProductName" class="form-label">Masukkan Foto</label>
+            <input type="file" name="photo" class="form-control">
+        </div>
+        <div class="mb-3">
             <label for="Description" class="form-label">Description</label>
             {{-- <input type="text" name="description" value="{{$data->description}}" class="form-control" cols="30" rows="10"> --}}
             <textarea name="description" class="form-control" cols="30" rows="10">{{ $data->description }}</textarea>
         </div>
-        <div class="mb-3">
-            <label for="ProductName" class="form-label">Masukkan Foto</label>
-            <input type="file" name="photo" class="form-control">
-        </div>
+
 
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
