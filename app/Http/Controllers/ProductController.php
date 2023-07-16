@@ -32,6 +32,12 @@ class ProductController extends Controller
         return redirect()->route('dashboard.product.index')->with('Success','Data berhasil diubah');
     }
 
+    public function deleteproduct($id){
+        $data = Product::find($id);
+        $data->delete();
+        return redirect()->route('dashboard.product.index')->with('Success','Data berhasil dihapus');
+    }
+
     public function edit(){
         return view('dashboard.products.edit');
     }

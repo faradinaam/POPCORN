@@ -84,8 +84,12 @@ Route::prefix('dashboard')->name('dashboard.')->middleware('auth')->group(functi
         Route::get('', [ProductController::class, 'index'])->name('index');
         Route::get('create', [ProductController::class, 'create'])->name('create');
         Route::post('insertproduct', [ProductController::class, 'insertproduct'])->name('insertproduct');
+
         Route::get('showdata/{id}', [ProductController::class, 'showdata'])->name('showdata');
         Route::post('updateproduct/{id}', [ProductController::class, 'updateproduct'])->name('updateproduct');
+
+        Route::get('deleteproduct/{id}', [ProductController::class, 'deleteproduct'])->name('deleteproduct');
+
         Route::get('{product_id}/edit', [ProductController::class, 'edit'])->name('edit');
         Route::get('{product_id}/variation',[ProductController::class, 'variation'])->name('variation');
         Route::get('{product_id}/createvariation', [ProductController::class, 'createvariation'])->name('createvariation');
