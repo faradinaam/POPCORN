@@ -21,7 +21,9 @@ class ProductController extends Controller
     public function insertproduct(Request $request)
     {
         $request->validate([
+            'name' => 'required',
             'photo' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            'description' => 'required'
         ]);
 
         $path = $request->file('photo')->store('product_photos', 'public');
