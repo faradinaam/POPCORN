@@ -94,7 +94,14 @@ Route::prefix('dashboard')->name('dashboard.')->middleware('auth')->group(functi
         Route::get('{product_id}/variation',[ProductController::class, 'variation'])->name('variation');
         Route::get('{product_id}/createvariation', [ProductController::class, 'createvariation'])->name('createvariation');
         Route::post('{product_id}/insertvariation', [ProductController::class, 'insertvariation'])->name('insertvariation');
-        Route::get('{product_id}/editvariation', [ProductController::class, 'editvariation'])->name('editvariation');
+        Route::get('{id}/editvariation', [ProductController::class, 'editvariation'])->name('editvariation');
+
+        Route::get('{product_id}/showeditvariation', [ProductController::class, 'showeditvariation'])->name('showeditvariation');
+        Route::post('{id}/updatevariation', [ProductController::class, 'updatevariation'])->name('updatevariation');
+
+
+        Route::get('{id}/deletevariation', [ProductController::class, 'deletevariation'])->name('deletevariation');
+
         // Route::get('{product_id}/variation/createvariation',[ProductController::class, 'createvariation'])->name('createvariation');
         Route::get('{product_id}/delete',[ProductController::class, 'delete'])->name('delete');
     });

@@ -23,7 +23,7 @@
                     @foreach ($variations as $variation)
                         <tr>
                             <td>
-                                {{ $variation->product_id }}
+                                {{ $variation->id }}
                             </td>
                             <td>
                                 {{ $variation->name }}
@@ -35,9 +35,8 @@
                                 {{ $variation->price }}
                             </td>
                             <td>
-                                <a class="btn btn-warning" href="{{ route('dashboard.product.edit', ['product_id' => 1]) }}"
-                                    role="button">Edit</a>
-                                <button type="button" class="btn btn-danger">Delete</button>
+                                <a class="btn btn-warning" href="{{ route('dashboard.product.editvariation', ['id'=> $variation->id]) }}" role="button">Edit</a>
+                                <a href="{{route('dashboard.product.deletevariation',['id'=> $variation->id])}}" class="btn btn-danger">Delete</a>
                             </td>
                         </tr>
                     @endforeach
