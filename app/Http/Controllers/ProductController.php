@@ -17,7 +17,12 @@ class ProductController extends Controller
     }
     public function insertproduct(Request $request){
         // dd($request->all());
-        Product::create($request->all());
+        $data = Product::create($request->all());
+        if($request->hasFile('photo')){
+            $request->file('photo')->move('photoproduk/',$request->file('photo')->getClientOriginalName());
+            $data->photo = $request->file('photo')->getClientOriginalName();
+            $data->save();
+        }
         return redirect()->route('dashboard.product.index')->with('Success', 'Data berhasil ditambahkan');
     }
 
@@ -58,9 +63,24 @@ class ProductController extends Controller
         ]);
         return redirect()->route('dashboard.product.variation',['product_id'=>$product_id]);
     }
-    public function editvariation(){
-        return view('dashboard.products.editvariation');
+
+    public function editvariation($id){
+        $variation = ProductVariation::find($id);
+        return view('dashboard.products.editvariation',['variation'=>$variation]);
     }
+
+    public function updatevariation(Request $request, $id){
+        $variation = ProductVariation::find($id);
+        $variation->update($request->all());
+        return redirect()->route('dashboard.product.variation',['product_id'=>$variation->product_id])->with('Success','Data berhasil diubah');
+    }
+
+    public function deletevariation($id){
+        $variation = ProductVariation::find($id);
+        $variation->delete();
+        return redirect()->route('dashboard.product.variation',['product_id'=>$variation->product_id])->with('Success','Variasi berhasil dihapus');
+    }
+
     public function delete(){
         return view('dashboard.products.delete');
     }
