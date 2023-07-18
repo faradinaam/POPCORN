@@ -35,7 +35,7 @@
                         <div class="col-md-2">
                             <div class="footer-contact">
                                 <h2>Our WhatsApp</h2>
-                                <p><i class="fa fa-phone-alt"></i>+62 8123 0061 0228</p>
+                                <p><i class="fa fa-phone-alt"></i>+62 8123 0610 228</p>
                             </div>
                         </div>
                         <div class="col-md-2">

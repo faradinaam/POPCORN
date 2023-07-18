@@ -7,13 +7,12 @@
                 <img src="DOKUMENPOPCORN/3.jpg" alt="Image">
             </div>
             <div class="carousel-text">
-                <h1>Best <span>Quality</span> Ingredients</h1>
+                <h1>Authentic<span>Taste</span></h1>
                 <p>
-                    Lorem ipsum dolor sit amet elit. Phasellus ut mollis mauris. Vivamus egestas eleifend dui ac
-                    consequat at lectus in malesuada
+                    Popcorn to go's use family recipes with a modern touch, are made hygienically to high standards and quality ingredients. Popcorn to go reminds you of warm moments with your loved ones
                 </p>
                 <div class="carousel-btn">
-                    <a class="btn custom-btn" href="">Buy Product</a>
+                    <a class="btn custom-btn"  href="https://api.whatsapp.com/send/?phone=6281230610228&text&type=phone_number&app_absent=0">BUY NOW</a>
                 </div>
             </div>
         </div>
@@ -105,11 +104,11 @@
                                 </div>
                             </div>
                         </div>
-                        <p>
+                        {{-- <p>
                             Lorem ipsum dolor sit amet consec adipis elit. Phasel nec preti mi. Curabit facilis ornare velit
                             non vulputa. Aliquam metus tortor, auctor id gravida condime, viverra quis sem. Curabit non nisl
                             nec nisi sceleri maximus
-                        </p>
+                        </p> --}}
                         <a class="btn custom-btn"
                             href="https://api.whatsapp.com/send/?phone=6281230610228&text&type=phone_number&app_absent=0">BUY
                             NOW</a>
@@ -120,10 +119,9 @@
                         <div class="col-sm-6">
                             <div class="feature-item">
                                 <i class="flaticon-cooking"></i>
-                                <h3>World’s best Flavour</h3>
+                                <h3>Best quality products</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non
-                                    vulput metus tortor
+                                    The popcorns are produced under hygienically conditions with selected ingredients and also carefully produced with the right techniques for making high quality flavour and nutritional food
                                 </p>
                             </div>
                         </div>
@@ -132,8 +130,7 @@
                                 <i class="flaticon-vegetable"></i>
                                 <h3>Natural ingredients</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non
-                                    vulput metus tortor
+                                    Popcorn to go has a Healthy concept, where in the selection of materials in the manufacture of all of its products DO NOT USE chemicals and preservatives
                                 </p>
                             </div>
                         </div>
@@ -142,14 +139,25 @@
                         <div class="col-sm-6">
                             <div class="feature-item">
                                 <i class="flaticon-medal"></i>
-                                <h3>Best quality products</h3>
+                                <h3>World’s best FlavourWorld’s best Flavour</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non
-                                    vulput metus tortor
+                                    Made from premium quality raw goods, we serve you the finest taste of popcorn
                                 </p>
                             </div>
                         </div>
                         <div class="col-sm-6">
+                            <div class="feature-item">
+                                <i class="flaticon-courier"></i>
+                                <h3>Click and Receive</h3>
+                                <p>
+                                    Click & Receive is a delivery option for online orders that offers a convenient way to enjoy our premium product
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                         {{-- <div class="col-sm-6">
                             <div class="feature-item">
                                 <i class="flaticon-meat"></i>
                                 <h3>Fresh ingredients</h3>
@@ -158,19 +166,7 @@
                                     vulput metus tortor
                                 </p>
                             </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="feature-item">
-                                <i class="flaticon-courier"></i>
-                                <h3>Fastest door delivery</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non
-                                    vulput metus tortor
-                                </p>
-                            </div>
-                        </div>
+                        </div> --}}
                         {{-- <div class="col-sm-6">
                         <div class="feature-item">
                             <i class="flaticon-fruits-and-vegetables"></i>
@@ -238,7 +234,7 @@
                 <h2>Contact For Any Query</h2>
             </div>
             <div class="row align-items-center contact-information">
-                <div class="col-md-6 col-lg-6">
+                <div class="col-md-6 col-lg-9">
                     <div class="contact-info">
                         <div class="contact-icon">
                             <i class="fa fa-map-marker-alt"></i>
@@ -256,16 +252,17 @@
                         </div>
                         <div class="contact-text">
                             <h3>Call Us</h3>
-                            <p>+62 8123 0061 0228</p>
+                            <p>+62 8123 0610 228
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="contact-info">
-                        <div class="contact-icon">
+                {{-- <div class="col-md-6 col-lg-3">
+                    <div class="contact-info"> --}}
+                        {{-- <div class="contact-icon">
                             <i class="fa fa-share"></i>
-                        </div>
-                        <div class="contact-text">
+                        </div> --}}
+                        {{-- <div class="contact-text">
                             <h3>Follow Us</h3>
                             <div class="contact-social">
                                 <a href=""><i class="fa-brands fa-whatsapp"></i></a>
@@ -275,9 +272,9 @@
                                 <a href=""><i class="fab fa-instagram"></i></a>
                                 <a href=""><i class="fab fa-linkedin-in"></i></a>
                             </div>
-                        </div>
-                    </div>
-                </div>
+                        </div> --}}
+                    {{-- </div>
+                </div> --}}
             </div>
             <div class="row contact-form">
                 <<iframe
