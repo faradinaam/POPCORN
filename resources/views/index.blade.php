@@ -36,7 +36,7 @@
             <div class="row">
                 <div class="col-12 m-auto">
                     <div class="owl-carousel owl-theme">
-                        @foreach ($data as $item)
+                        {{-- @foreach ($data as $item)
                             <div class="item mb-4">
                                 <a href="{{ $item->slug }}">
                                     <div class="card border-0 shadow">
@@ -50,7 +50,7 @@
                                     </div>
                                 </a>
                             </div>
-                        @endforeach
+                        @endforeach --}}
                     </div>
                 </div>
             </div>
