@@ -1,5 +1,5 @@
 @extends('component.navbar')
-@section('content')    
+@section('content')
         <!-- Page Header Start -->
         <div class="page-header mb-0">
             <div class="container">
@@ -15,38 +15,37 @@
             </div>
         </div>
         <!-- Page Header End -->
-        
-        
-        {{-- <!-- Food Start -->
-        <div class="food mt-0">
+
+
+        <div class="food">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-4">
                         <div class="food-item">
-                            <img src="DOKUMENPOPCORN/popcorn.png" alt="Popcorn" width="80px">
-                            <h2>Popcorn</h2>
+                            <i class="flaticon-burger"></i>
+                            <h2>Burgers</h2>
                             <p>
-                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
+                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem.
                             </p>
                             <a href="">View Menu</a>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="food-item">
-                            <img src="DOKUMENPOPCORN/pop.png" alt="Popcorn" width="80px">
-                            <h2>Pop</h2>
+                            <i class="flaticon-snack"></i>
+                            <h2>Snacks</h2>
                             <p>
-                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
+                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem.
                             </p>
                             <a href="">View Menu</a>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="food-item">
-                            <img src="DOKUMENPOPCORN/corn.png" alt="Popcorn" width="80px">
-                            <h2>Corn</h2>
+                            <i class="flaticon-cocktail"></i>
+                            <h2>Beverages</h2>
                             <p>
-                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
+                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem.
                             </p>
                             <a href="">View Menu</a>
                         </div>
@@ -54,8 +53,7 @@
                 </div>
             </div>
         </div>
-        <!-- Food End --> --}}
-        
+
         <!-- About Start -->
         <div class="about">
             <div class="container">
@@ -84,8 +82,8 @@
             </div>
         </div>
         <!-- About End -->
-        
-        
+
+
         <!-- Video Modal Start-->
         <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -93,7 +91,7 @@
                     <div class="modal-body">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
-                        </button>        
+                        </button>
                         <!-- 16:9 aspect ratio -->
                         <div class="embed-responsive embed-responsive-16by9">
                             <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
@@ -101,7 +99,7 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
         <!-- Video Modal End -->
 @include('component.footer')
 @endsection

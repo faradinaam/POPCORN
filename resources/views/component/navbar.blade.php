@@ -43,6 +43,7 @@
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
                         <a href="/" class="nav-item nav-link {{ ($title === "Home") ? 'active' : ''}}">Home</a>
+                        <a href="#ourProduct" class="nav-item nav-link {{ ($title === "Home") ? 'active' : ''}}">Product</a>
                         <a href="/about" class="nav-item nav-link {{ ($title === "About") ? 'active' : ''}}">About</a>
                         @auth
                         <li class="nav-item dropdown">
@@ -118,7 +119,7 @@
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
         crossorigin="anonymous"></script>
         <script>
-            $('.owl-carousel').owlCarousel({
+            $('.product .owl-carousel').owlCarousel({
                 loop: true,
                 margin: 15,
                 nav: true,
