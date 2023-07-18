@@ -71,7 +71,7 @@
                             <p>
                                 Popcorn to go was founded in 2022 bringing authentic family recipes. Starting from a home on
                                 Medokan street, now it has an outlet in Rungkut Surabaya. Various choices of popcorn
-                                flavors, varying from sweet, salty, or mixed are available both in offline and online
+                                flavors, varying from sweet, salty, and mixed are available both in offline and online
                                 stores.
                             </p>
                             <p>
