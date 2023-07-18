@@ -1,7 +1,7 @@
 @extends('component.navbar')
 @section('content')
-     <!-- Carousel Start -->
-     <div class="carousel">
+    <!-- Carousel Start -->
+    <div class="carousel">
         <div class="carousel-item">
             <div class="carousel-img">
                 <img src="DOKUMENPOPCORN/3.jpg" alt="Image">
@@ -9,15 +9,18 @@
             <div class="carousel-text">
                 <h1>Authentic<span>Taste</span></h1>
                 <p>
-                    Popcorn to go's use family recipes with a modern touch, are made hygienically to high standards and quality ingredients. Popcorn to go reminds you of warm moments with your loved ones
+                    Popcorn to go's use family recipes with a modern touch, are made hygienically to high standards and
+                    quality ingredients. Popcorn to go reminds you of warm moments with your loved ones
                 </p>
                 <div class="carousel-btn">
-                    <a class="btn custom-btn"  href="https://api.whatsapp.com/send/?phone=6281230610228&text&type=phone_number&app_absent=0">BUY NOW</a>
+                    <a class="btn custom-btn"
+                        href="https://api.whatsapp.com/send/?phone=6281230610228&text&type=phone_number&app_absent=0">BUY
+                        NOW</a>
                 </div>
             </div>
         </div>
-</div>
-<!-- Carousel End -->
+    </div>
+    <!-- Carousel End -->
 
 
 
@@ -121,7 +124,9 @@
                                 <i class="flaticon-cooking"></i>
                                 <h3>Best quality products</h3>
                                 <p>
-                                    The popcorns are produced under hygienically conditions with selected ingredients and also carefully produced with the right techniques for making high quality flavour and nutritional food
+                                    The popcorns are produced under hygienically conditions with selected ingredients and
+                                    also carefully produced with the right techniques for making high quality flavour and
+                                    nutritional food
                                 </p>
                             </div>
                         </div>
@@ -130,7 +135,8 @@
                                 <i class="flaticon-vegetable"></i>
                                 <h3>Natural ingredients</h3>
                                 <p>
-                                    Popcorn to go has a Healthy concept, where in the selection of materials in the manufacture of all of its products DO NOT USE chemicals and preservatives
+                                    Popcorn to go has a Healthy concept, where in the selection of materials in the
+                                    manufacture of all of its products DO NOT USE chemicals and preservatives
                                 </p>
                             </div>
                         </div>
@@ -150,14 +156,15 @@
                                 <i class="flaticon-courier"></i>
                                 <h3>Click and Receive</h3>
                                 <p>
-                                    Click & Receive is a delivery option for online orders that offers a convenient way to enjoy our premium product
+                                    Click & Receive is a delivery option for online orders that offers a convenient way to
+                                    enjoy our premium product
                                 </p>
                             </div>
                         </div>
 
                     </div>
                     <div class="row">
-                         {{-- <div class="col-sm-6">
+                        {{-- <div class="col-sm-6">
                             <div class="feature-item">
                                 <i class="flaticon-meat"></i>
                                 <h3>Fresh ingredients</h3>
@@ -259,10 +266,10 @@
                 </div>
                 {{-- <div class="col-md-6 col-lg-3">
                     <div class="contact-info"> --}}
-                        {{-- <div class="contact-icon">
+                {{-- <div class="contact-icon">
                             <i class="fa fa-share"></i>
                         </div> --}}
-                        {{-- <div class="contact-text">
+                {{-- <div class="contact-text">
                             <h3>Follow Us</h3>
                             <div class="contact-social">
                                 <a href=""><i class="fa-brands fa-whatsapp"></i></a>
@@ -273,7 +280,7 @@
                                 <a href=""><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div> --}}
-                    {{-- </div>
+                {{-- </div>
                 </div> --}}
             </div>
             <div class="row contact-form">

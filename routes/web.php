@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\DashboardPostController;
+use App\Http\Controllers\FrontController;
 use App\Http\Controllers\ProductController;
 
 /*
@@ -16,12 +17,9 @@ use App\Http\Controllers\ProductController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+// Route::get('/', [LoginController::class, 'index'])->name('login')->middleware('guest');
 
-Route::get('/', function () {
-    return view('index', [
-        "title" => "Home"
-    ]);
-});
+Route::get('/', [FrontController::class, 'index']);
 
 Route::get('/about', function () {
     return view('about', [

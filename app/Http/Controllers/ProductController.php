@@ -12,6 +12,7 @@ class ProductController extends Controller
     public function index()
     {
         $data = product::all();
+        // return $data;
         return view('dashboard.products.index', compact('data'));
     }
     public function create()
