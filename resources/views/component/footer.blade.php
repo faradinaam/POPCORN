@@ -45,7 +45,7 @@
                                 <a href="https://shopee.co.id/popcorntogo?smtt=0.662763060-1670263172.7"><img src="{{asset('DOKUMENPOPCORN/shopee (3).png')}}"  style="width:40px " alt=""></a>
                                 <a href="https://www.tokopedia.com/popcorntogo?_branch_match_id=1176688419967815854&utm_source=sellerchannel&utm_campaign=Shop-0-14885579-0&utm_medium=share&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL8nPzi9ITclM1MvJzMvWL8gvSM4vyivJT88HAAb%2FVZ8iAAAA"><img src="{{asset('DOKUMENPOPCORN/tokopedia.png')}}"  style="width:30px " alt=""></a>
                                 <a href="http://tiktok.com/@popcorntogo.id"><img src="{{asset('DOKUMENPOPCORN/tiktok.png')}}"  style="width:30px " alt=""></a>
-                                <a href="http://www.instagram.com/popcornotogo"><img src="{{asset('DOKUMENPOPCORN/instagram.png')}}"  style="width:30px " alt=""></a>
+                                <a href="https://www.instagram.com/popcorntogo/?igshid=NTc4MTIwNjQ2YQ%3D%3D"><img src="{{asset('DOKUMENPOPCORN/instagram.png')}}"  style="width:30px " alt=""></a>
                             </div>
                         </div>
                     </div>

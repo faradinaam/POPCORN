@@ -2,6 +2,75 @@
 @section('content')
     <!-- Carousel Start -->
     <div class="carousel">
+        <div class="owl-carousel">
+            <div class="carousel-item">
+                <div class="carousel-img">
+                    <img src="DOKUMENPOPCORN/3.jpg" alt="Image">
+                </div>
+                <div class="carousel-text">
+                    <h1>Authentic<span>Taste</span></h1>
+                    <p>
+                        Popcorn to go's use family recipes with a modern touch, are made hygienically to high standards and
+                        quality ingredients. Popcorn to go reminds you of warm moments with your loved ones
+                    </p>
+                    <div class="carousel-btn">
+                        <a class="btn custom-btn"
+                            href="https://api.whatsapp.com/send/?phone=6281230610228&text&type=phone_number&app_absent=0">BUY
+                            NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-img">
+                    <img src="DOKUMENPOPCORN/2.jpg" alt="Image">
+                </div>
+                <div class="carousel-text">
+                    <h1>Authentic<span>Taste</span></h1>
+                    <p>
+                        Popcorn to go's use family recipes with a modern touch, are made hygienically to high standards and
+                        quality ingredients. Popcorn to go reminds you of warm moments with your loved ones
+                    </p>
+                    <div class="carousel-btn">
+                        <a class="btn custom-btn"
+                            href="https://api.whatsapp.com/send/?phone=6281230610228&text&type=phone_number&app_absent=0">BUY
+                            NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-img">
+                    <img src="DOKUMENPOPCORN/1.jpg" alt="Image">
+                </div>
+                <div class="carousel-text">
+                    <h1>Authentic<span>Taste</span></h1>
+                    <p>
+                        Popcorn to go's use family recipes with a modern touch, are made hygienically to high standards and
+                        quality ingredients. Popcorn to go reminds you of warm moments with your loved ones
+                    </p>
+                    <div class="carousel-btn">
+                        <a class="btn custom-btn"
+                            href="https://api.whatsapp.com/send/?phone=6281230610228&text&type=phone_number&app_absent=0">BUY
+                            NOW</a>
+                    </div>
+                </div> <div class="carousel-text">
+                    <h1>Authentic<span>Taste</span></h1>
+                    <p>
+                        Popcorn to go's use family recipes with a modern touch, are made hygienically to high standards and
+                        quality ingredients. Popcorn to go reminds you of warm moments with your loved ones
+                    </p>
+                    <div class="carousel-btn">
+                        <a class="btn custom-btn"
+                            href="https://api.whatsapp.com/send/?phone=6281230610228&text&type=phone_number&app_absent=0">BUY
+                            NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- Carousel Start backup -->
+    {{-- <div class="carousel">
         <div class="carousel-item">
             <div class="carousel-img">
                 <img src="DOKUMENPOPCORN/3.jpg" alt="Image">
@@ -19,13 +88,30 @@
                 </div>
             </div>
         </div>
-    </div>
+        <div class="carousel-item">
+            <div class="carousel-img">
+                <img src="DOKUMENPOPCORN/2.jpg" alt="Image">
+            </div>
+            <div class="carousel-text">
+                <h1>Authentic<span>Taste</span></h1>
+                <p>
+                    Popcorn to go's use family recipes with a modern touch, are made hygienically to high standards and
+                    quality ingredients. Popcorn to go reminds you of warm moments with your loved ones
+                </p>
+                <div class="carousel-btn">
+                    <a class="btn custom-btn"
+                        href="https://api.whatsapp.com/send/?phone=6281230610228&text&type=phone_number&app_absent=0">BUY
+                        NOW</a>
+                </div>
+            </div>
+        </div>
+    </div> --}}
     <!-- Carousel End -->
 
 
 
     {{-- Carousel Start --}}
-    <div class="break" id="ourProduct">
+    <div class="break" id="#ourProduct">
         <br>
         <br>
         <br>
@@ -42,7 +128,7 @@
                             <div class="item mb-4">
                                 <a href="{{ $item->slug }}">
                                     <div class="card border-0 shadow">
-                                        <a href=""><img src="DOKUMENPOPCORN/chesee.jpg" alt=""
+                                        <a href="{{ $item->rute }}"><img src="DOKUMENPOPCORN/chesee.jpg" alt=""
                                                 class="card-img-top" style="object-fit: cover"></a>
                                         <div class="card-body">
                                             <div class="card-title text-center">
@@ -117,7 +203,7 @@
                             NOW</a>
                     </div>
                 </div>
-                <div class="col-lg-7">
+                <div class="col-lg-7 d-flex justify-content-center align-items-center flex-column">
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="feature-item">
@@ -145,7 +231,7 @@
                         <div class="col-sm-6">
                             <div class="feature-item">
                                 <i class="flaticon-medal"></i>
-                                <h3>World’s best FlavourWorld’s best Flavour</h3>
+                                <h3>World’s best Flavour</h3>
                                 <p>
                                     Made from premium quality raw goods, we serve you the finest taste of popcorn
                                 </p>
@@ -230,7 +316,63 @@
 </div>
 <!-- Food End --> --}}
 
+    <!-- Testimonial Start -->
 
+    <div class="break" id="Testimoni">
+        <br>
+        <br>
+        <br>
+    </div>
+    <div class="testimonial">
+        <div class="container">
+            <div class="product-title">
+                <h2 class="text-center"><b>Testimoni</b></h2>
+            </div>
+            <div class="owl-carousel testimonials-carousel">
+                <div class="testimonial-item">
+                    <div class="testimonial-img">
+                        <img src="img/testimonial-1.jpg" alt="Image">
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput
+                    </p>
+                    <h2>Client Name</h2>
+                    <h3>Profession</h3>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-img">
+                        <img src="DOKUMENPOPCORN/3.jpg" alt="Image">
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput
+                    </p>
+                    <h2>Client Name</h2>
+                    <h3>Profession</h3>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-img">
+                        <img src="img/testimonial-3.jpg" alt="Image">
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput
+                    </p>
+                    <h2>Client Name</h2>
+                    <h3>Profession</h3>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-img">
+                        <img src="img/testimonial-4.jpg" alt="Image">
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput
+                    </p>
+                    <h2>Client Name</h2>
+                    <h3>Profession</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
 
 
     <!-- Contact Start -->
