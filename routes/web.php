@@ -26,7 +26,6 @@ Route::get('/about', function () {
         "title" => "About"
     ]);
 });
-
 Route::get('/Cheese', function () {
     return view('Cheese' , [
         "title" => "Cheese"

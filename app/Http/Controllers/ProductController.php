@@ -23,7 +23,7 @@ class ProductController extends Controller
     {
         $request->validate([
             'name' => 'required',
-            'photo' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            'photo' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:6048',
             'description' => 'required'
         ]);
 
@@ -35,6 +35,7 @@ class ProductController extends Controller
             'description' => $request->description,
             'slug' => $slug,
             'photo' => $path,
+            'rute' => ""
         ]);
 
         return redirect()->route('dashboard.product.index')->with('Success', 'Data berhasil ditambahkan');

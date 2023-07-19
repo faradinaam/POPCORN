@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('photo')->nullable();
             $table->text('description');
-
+            $table->string('rute');
             $table->timestamps();
         });
     }
