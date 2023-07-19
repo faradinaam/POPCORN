@@ -82,7 +82,7 @@
                                 Popcorn to go hopes to continue to serve the authentic taste of a cross-generational
                                 favourite that brings people memories of warm moments with the loved ones.
                             </P>
-                            <a class="btn custom-btn" href="">BUY NOW</a>
+                            <a class="btn custom-btn" href="https://api.whatsapp.com/send/?phone=6281230610228&text&type=phone_number&app_absent=0">BUY NOW</a>
                         </div>
                     </div>
                 </div>
