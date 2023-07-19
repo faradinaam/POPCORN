@@ -10,7 +10,7 @@
                 <div class="carousel-text">
                     <h1>Authentic<span>Taste</span></h1>
                     <p>
-                        Popcorn to go's use family recipes with a modern touch, are made hygienically to high standards and
+                        Popcorn to go uses family recipes recipes with a modern touch, are made hygienically to high standards and
                         quality ingredients. Popcorn to go reminds you of warm moments with your loved ones
                     </p>
                     <div class="carousel-btn">
