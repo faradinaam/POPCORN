@@ -48,8 +48,8 @@
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto">
                     <a href="/" class="nav-item nav-link {{ $title === 'Home' ? 'active' : '' }}">Home</a>
-                    <a href="#ourProduct" class="nav-item nav-link {{ $title === 'Home' ? 'active' : '' }}">Product</a>
-                    <a href="#Testimoni"class="nav-item nav-link {{ $title === 'Home' ? 'active' : '' }}">Testimoni</a>
+                    <a href="http://127.0.0.1:8000/#ourProduct" class="nav-item nav-link {{ $title === 'Home' ? 'active' : '' }}">Product</a>
+                    <a href="http://127.0.0.1:8000/#Testimoni"class="nav-item nav-link {{ $title === 'Home' ? 'active' : '' }}">Testimoni</a>
                     <a href="/about" class="nav-item nav-link {{ $title === 'About' ? 'active' : '' }}">About</a>
                     @auth
                         <li class="nav-item dropdown">
