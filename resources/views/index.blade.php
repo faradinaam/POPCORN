@@ -10,7 +10,7 @@
                 <div class="carousel-text">
                     <h1>Authentic<span>Taste</span></h1>
                     <p>
-                        Popcorn to go uses family recipes recipes with a modern touch, are made hygienically to high standards and
+                        Popcorn to go uses family recipes with a modern touch, are made hygienically to high standards and
                         quality ingredients. Popcorn to go reminds you of warm moments with your loved ones
                     </p>
                     <div class="carousel-btn">
@@ -128,7 +128,7 @@
                             <div class="item mb-4">
                                 <a href="{{ $item->slug }}">
                                     <div class="card border-0 shadow">
-                                        <a href="{{ $item->rute }}"><img src="DOKUMENPOPCORN/chesee.jpg" alt=""
+                                        <a href="/ProductPage"><img src="{{ $item->photo }}" alt=""
                                                 class="card-img-top" style="object-fit: cover"></a>
                                         <div class="card-body">
                                             <div class="card-title text-center">
@@ -317,8 +317,7 @@
 <!-- Food End --> --}}
 
     <!-- Testimonial Start -->
-
-    <div class="break" id="Testimoni">
+    {{-- <div class="break" id="Testimoni">
         <br>
         <br>
         <br>
@@ -371,7 +370,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Testimonial End -->
 
 
