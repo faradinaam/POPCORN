@@ -128,7 +128,7 @@
                             <div class="item mb-4">
                                 <a href="{{ $item->slug }}">
                                     <div class="card border-0 shadow">
-                                        <a href="/ProductPage"><img src="{{ $item->photo }}" alt=""
+                                        <a href="{{ $item->rute }}"><img src="{{ asset('storage') . '/' . $item->photo }}" alt=""
                                                 class="card-img-top" style="object-fit: cover"></a>
                                         <div class="card-body">
                                             <div class="card-title text-center">
