@@ -21,6 +21,8 @@ use App\Http\Controllers\ProductController;
 
 Route::get('/', [FrontController::class, 'index']);
 
+
+
 Route::get('/about', function () {
     return view('about', [
         "title" => "About"
@@ -103,3 +105,5 @@ Route::prefix('dashboard')->name('dashboard.')->middleware('auth')->group(functi
         Route::get('{product_id}/delete',[ProductController::class, 'delete'])->name('delete');
     });
 });
+
+Route::get('{slug}', [FrontController::class, 'show'])->name('show');

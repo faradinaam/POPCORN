@@ -14,4 +14,12 @@ class FrontController extends Controller
             'data' => $data
         ]);
     }
+    public function show($slug){
+        $product=Product::where('slug', '=' , $slug)->first();
+        // return $product;
+        return view('ProductPage',[
+            "title" => "Product",
+            'product' => $product
+        ]);
+    }
 }

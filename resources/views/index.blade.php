@@ -126,9 +126,8 @@
                     <div class="owl-carousel owl-theme">
                         @foreach ($data as $item)
                             <div class="item mb-4">
-                                <a href="{{ $item->slug }}">
                                     <div class="card border-0 shadow">
-                                        <a href="{{ $item->rute }}"><img src="{{ asset('storage') . '/' . $item->photo }}" alt=""
+                                        <a href="{{ route('show',['slug'=>$item->slug]) }}"><img src="{{ asset('storage') . '/' . $item->photo }}" alt=""
                                                 class="card-img-top" style="object-fit: cover"></a>
                                         <div class="card-body">
                                             <div class="card-title text-center">
@@ -136,7 +135,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                </a>
                             </div>
                         @endforeach
                     </div>
