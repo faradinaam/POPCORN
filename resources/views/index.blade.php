@@ -423,7 +423,7 @@
                 </div> --}}
             </div>
             <div class="row contact-form">
-                <<iframe
+                <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15829.139658511936!2d112.78613854281983!3d-7.321859381570432!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb8ee15fd871%3A0x115a28d9ed41b510!2sChatthai%20Rungkut!5e0!3m2!1sen!2sid!4v1683215420167!5m2!1sen!2sid"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
