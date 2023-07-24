@@ -8,6 +8,9 @@
     <meta content="Free Website Template" name="keywords">
     <meta content="Free Website Template" name="description">
 
+    {{-- Animate CSS --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
     <!-- Favicon -->
     <link href="DOKUMENPOPCORN/logo.jpeg" rel="icon">
 
@@ -32,7 +35,7 @@
 
 
     <!-- Template Stylesheet -->
-    <link href="{{asset('css/style.css')}}" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 </head>
 
 <body>
@@ -48,7 +51,8 @@
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto">
                     <a href="/" class="nav-item nav-link {{ $title === 'Home' ? 'active' : '' }}">Home</a>
-                    <a href="#ourProduct" class="nav-item nav-link {{ $title === 'Home' ? 'active' : '' }}">Product</a>
+                    <a href="{{ $title != 'Home' ? '/' : '#ourProduct' }}"
+                        class="nav-item nav-link {{ $title === 'Home' ? 'active' : '' }}">Product</a>
                     {{-- <a href="http://127.0.0.1:8000/#Testimoni"class="nav-item nav-link {{ $title === 'Home' ? 'active' : '' }}">Testimoni</a> --}}
                     <a href="/about" class="nav-item nav-link {{ $title === 'About' ? 'active' : '' }}">About</a>
                     @auth
@@ -184,6 +188,32 @@
                 992: {
                     items: 3
                 }
+            }
+        });
+
+        // let lastKnownScrollPosition = 0;
+        // let ticking = false;
+
+        // function animate(scrollPos) {
+        //     const animate = document.getElementById('product');
+        //     let delay = 0;
+        //     if (window.scrollY > 700) {
+        //         animate.classList.add('animate__animate', 'animate__fadeInUp','animate__delay-${selay}s');
+        //         delay++;
+        //     }
+
+        // }
+
+        document.addEventListener("scroll", (event) => {
+            lastKnownScrollPosition = window.scrollY;
+
+            if (!ticking) {
+                window.requestAnimationFrame(() => {
+                    animate(lastKnownScrollPosition);
+                    ticking = false;
+                });
+
+                ticking = true;
             }
         });
     </script>

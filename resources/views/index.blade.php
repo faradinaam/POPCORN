@@ -116,10 +116,10 @@
         <br>
         <br>
     </div>
-    <div class="product container-fluid">
+    <div class="product container-fluid animate__animated animate__fadeInUp">
         <div class="container mb-5">
             <div class="product-title">
-                <h2 class="text-center"><b>Our Product</b></h2>
+                <h2 class="text-center"><b>Our <span style="color: #fbaf32">Product</span></b></h2>
             </div>
             <div class="row">
                 <div class="col-12 m-auto">
@@ -166,7 +166,7 @@
 
 
     <!-- Feature Start -->
-    <div class="feature">
+    <div class="feature animate__animated animate__fadeInUp">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">

@@ -69,6 +69,7 @@ a:focus {
 
 .btn.custom-btn {
     padding: 12px 25px;
+    width: 100%;
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
     font-weight: 600;
@@ -2054,4 +2055,8 @@ a:focus {
 
 .daftar{
     color: rgba(0, 162, 255, 0.616);
+}
+.tes{
+    display: flex;
+    align-content: space-between;
 }
