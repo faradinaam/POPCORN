@@ -27,7 +27,7 @@
                         <div class="col-md-8">
                             <div class="footer-contact">
                                 <h2>Address</h2>
-                                <p><i class="fa fa-map-marker-alt"></i>Blok 1G, Jl. Raya Medokan Sawah, Medokan Ayu, Rungkut, Surabaya City, East Java 60295</p>
+                                <p><i class="fa fa-map-marker-alt"></i>Jl. Medokan Ayu 1G No.20, Medokan Ayu, Rungkut, Surabaya City, East Java 60295</p>
 
 
                             </div>

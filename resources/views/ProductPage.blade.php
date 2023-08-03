@@ -18,14 +18,14 @@
 
                                 <div class="row tes">
                                     <div class="col-sm">
-                                        <h5>Packaging</h5>
+                                        <h5>Size</h5>
                                     </div>
                                     <div class="col-sm option text-align-right">
                                         <select class="form-select" aria-label="Default select example">
-                                            <option selected>Choose an option</option>
-                                            <option value="1">100 gr</option>
-                                            <option value="2">200 gr</option>
-                                            <option value="3">400 gr</option>
+                                            <option selected>Size</option>
+                                            <option value="1">± 100 grams</option>
+                                            <option value="2">± 200 grams</option>
+                                            <option value="3">± 400 grams</option>
                                         </select>
                                     </div>
                                 </div>
