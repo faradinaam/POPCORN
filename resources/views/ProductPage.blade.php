@@ -23,9 +23,9 @@
                                     <div class="col-sm option text-align-right">
                                         <select class="form-select" aria-label="Default select example">
                                             <option selected>Size</option>
-                                            <option value="1">± 100 grams</option>
-                                            <option value="2">± 200 grams</option>
-                                            <option value="3">± 400 grams</option>
+                                            <option value="1">S (± 100 grams)</option>
+                                            <option value="2">M (± 200 grams)</option>
+                                            <option value="3">L (± 400 grams)</option>
                                         </select>
                                     </div>
                                 </div>
