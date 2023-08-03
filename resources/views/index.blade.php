@@ -25,7 +25,7 @@
                     <img src="DOKUMENPOPCORN/2.jpg" alt="Image">
                 </div>
                 <div class="carousel-text">
-                    <h1>Authentic<span>Taste</span></h1>
+                    <h1>Authentic<span> Taste</span></h1>
                     <p>
                         Popcorn to go's use family recipes with a modern touch, are made hygienically to high standards and
                         quality ingredients. Popcorn to go reminds you of warm moments with your loved ones
@@ -42,18 +42,7 @@
                     <img src="DOKUMENPOPCORN/1.jpg" alt="Image">
                 </div>
                 <div class="carousel-text">
-                    <h1>Authentic<span>Taste</span></h1>
-                    <p>
-                        Popcorn to go's use family recipes with a modern touch, are made hygienically to high standards and
-                        quality ingredients. Popcorn to go reminds you of warm moments with your loved ones
-                    </p>
-                    <div class="carousel-btn">
-                        <a class="btn custom-btn"
-                            href="https://api.whatsapp.com/send/?phone=6281230610228&text&type=phone_number&app_absent=0">BUY
-                            NOW</a>
-                    </div>
-                </div> <div class="carousel-text">
-                    <h1>Authentic<span>Taste</span></h1>
+                    <h1>Authentic<span> Taste</span></h1>
                     <p>
                         Popcorn to go's use family recipes with a modern touch, are made hygienically to high standards and
                         quality ingredients. Popcorn to go reminds you of warm moments with your loved ones
