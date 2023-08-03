@@ -26,7 +26,7 @@
                     <div class="row">
                         <div class="col-md-8">
                             <div class="footer-contact">
-                                <h2>Our Address</h2>
+                                <h2>Address</h2>
                                 <p><i class="fa fa-map-marker-alt"></i>Blok 1G, Jl. Raya Medokan Sawah, Medokan Ayu, Rungkut, Surabaya City, East Java 60295</p>
 
 
@@ -34,14 +34,14 @@
                         </div>
                         <div class="col-md-2">
                             <div class="footer-contact">
-                                <h2>Our WhatsApp</h2>
+                                <h2>WhatsApp</h2>
                                 <p><i class="fa fa-phone-alt"></i>+62 8123 0610 228</p>
                             </div>
                         </div>
                         <div class="col-md-2">
                             <div class="footer-contact">
-                                <h2>Our Social Media</h2>
-                                <a href="https://api.whatsapp.com/send/?phone=6281230610228&text&type=phone_number&app_absent=0"><img src="{{asset('DOKUMENPOPCORN/wa.png')}}"  style="width:40px " alt=""></a>
+                                <h2>Social Media</h2>
+                                {{-- <a href="https://api.whatsapp.com/send/?phone=6281230610228&text&type=phone_number&app_absent=0"><img src="{{asset('DOKUMENPOPCORN/wa.png')}}"  style="width:40px " alt=""></a> --}}
                                 <a href="https://shopee.co.id/popcorntogo?smtt=0.662763060-1670263172.7"><img src="{{asset('DOKUMENPOPCORN/shopee (3).png')}}"  style="width:40px " alt=""></a>
                                 <a href="https://www.tokopedia.com/popcorntogo?_branch_match_id=1176688419967815854&utm_source=sellerchannel&utm_campaign=Shop-0-14885579-0&utm_medium=share&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL8nPzi9ITclM1MvJzMvWL8gvSM4vyivJT88HAAb%2FVZ8iAAAA"><img src="{{asset('DOKUMENPOPCORN/tokopedia.png')}}"  style="width:30px " alt=""></a>
                                 <a href="http://tiktok.com/@popcorntogo.id"><img src="{{asset('DOKUMENPOPCORN/tiktok.png')}}"  style="width:30px " alt=""></a>

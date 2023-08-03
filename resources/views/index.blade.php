@@ -8,7 +8,7 @@
                     <img src="DOKUMENPOPCORN/3.jpg" alt="Image">
                 </div>
                 <div class="carousel-text">
-                    <h1>Authentic<span>Taste</span></h1>
+                    <h1>Authentic<span> Taste</span></h1>
                     <p>
                         Popcorn to go uses family recipes with a modern touch, are made hygienically to high standards and
                         quality ingredients. Popcorn to go reminds you of warm moments with your loved ones
@@ -375,7 +375,7 @@
     <!-- Contact Start -->
     <div class="contact">
         <div class="container">
-            <div class="section-header text-center">
+            {{-- <div class="section-header text-center">
                 <p>Contact Us</p>
                 <h2>Contact For Any Query</h2>
             </div>
@@ -387,7 +387,7 @@
                         </div>
                         <div class="contact-text">
                             <h3>Address</h3>
-                            <p>Blok 1G, Jl. Raya Medokan Sawah, Medokan Ayu, Rungkut, Surabaya City, East Java 60295</p>
+                            <p>Jl. Medokan Ayu 1G No. 20, Medokan Ayu, Rungkut, Surabaya City, East Java 60295</p>
                         </div>
                     </div>
                 </div>
@@ -402,7 +402,7 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 {{-- <div class="col-md-6 col-lg-3">
                     <div class="contact-info"> --}}
                 {{-- <div class="contact-icon">
@@ -421,7 +421,7 @@
                         </div> --}}
                 {{-- </div>
                 </div> --}}
-            </div>
+            {{-- </div> --}}
             <div class="row contact-form">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15829.139658511936!2d112.78613854281983!3d-7.321859381570432!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb8ee15fd871%3A0x115a28d9ed41b510!2sChatthai%20Rungkut!5e0!3m2!1sen!2sid!4v1683215420167!5m2!1sen!2sid"
